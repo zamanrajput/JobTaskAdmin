@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    tools:context=".HomeScreen">
+
+    <LinearLayout
+        android:layout_weight="100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="44"
+                android:background="@drawable/menu"
+                android:padding="6dp" />
+
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="10" />
+
+            <ImageView
+                android:onClick="OpenUserProfile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="45"
+                android:elevation="40dp"
+                android:padding="1dp"
+                android:src="@drawable/user_profile" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_weight="15"
+            android:id="@+id/mainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/homeBottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            app:menu="@menu/nav_menu"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

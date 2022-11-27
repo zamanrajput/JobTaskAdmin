@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="8dp"
+            android:layout_weight="43"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user_profile"
+            />
+
+        <LinearLayout
+            android:layout_marginRight="4dp"
+            android:padding="2dp"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="UserName"
+                android:textSize="8sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:gravity="center|start"
+                android:textSize="6sp"
+                android:text="user@email.com"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="48"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/edit"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Home"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"
+         />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+
+        android:paddingStart="8dp"
+        android:text="Browse Jobs"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Confirmed Bookings"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Support/Contact Office"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Customer Chat"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Profile"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Settings"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Completed Jobs"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="My Active Services"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:text="Cancelled Jobs"
+        android:gravity="start|center"
+        android:textSize="6sp"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

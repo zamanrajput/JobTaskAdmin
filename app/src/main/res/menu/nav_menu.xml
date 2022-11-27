@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeNav"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item android:id="@+id/messagesNav"
+        android:icon="@drawable/msg"
+        android:title="Chat"/>
+    <item android:id="@+id/browseJob"
+        android:icon="@drawable/browse_job"
+        android:title="Browse Jobs"/>
+
+    <item android:id="@+id/completedJobNav"
+        android:icon="@drawable/completed_job"
+        android:title="Completed Jobs"/>
+    <item android:id="@+id/profileNav"
+        android:icon="@drawable/user_small"
+        android:title="Profile"/>
+
+</menu>
